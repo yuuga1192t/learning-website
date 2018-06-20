@@ -6,7 +6,6 @@ var server = require('http').createServer(function(req, res){
     res.end(output);
 }).listen(8080);
 var io =require('socket.io').listen(server);
-
 var io = require('socket.io');
 
 //ユーザー管理ハッシュ
