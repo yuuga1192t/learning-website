@@ -16,9 +16,7 @@ io.sockets.on("connection", function (socket) {
  socket.on("connected", function (name) {
     var msg = name + "が入室しました";
     userHash[socket.id] = name;
-    io.sockets.emit("publish", {value: msg});
   });
-
   // メッセージ送信カスタムイベント
   socket.on("publish", function (data) {
     io.sockets.emit("publish", {value:data.value});
