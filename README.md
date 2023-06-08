@@ -35,3 +35,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<a href="https://nyanlabo.com/marisas-profile/" aria-current="page"><span class="ttl">魔理沙っちのプロフィール</span><button class="c-submenuToggleBtn c-plainBtn" data-onclick="toggleSubmenu" aria-label="サブメニューを開閉する"></button></a>
